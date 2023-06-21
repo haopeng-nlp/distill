@@ -14,7 +14,6 @@ import traceback
 from subprocess import SubprocessError
 import torch
 
-torch.backends.cuda.matmul.allow_bf16_reduced_precision_reduction = True
 
 import ast
 import fileinput
