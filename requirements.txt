@@ -1,0 +1,7 @@
+numpy==1.23.2
+transformers
+matplotlib
+sentencepiece
+beaker-gantry
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.12.1+cu113

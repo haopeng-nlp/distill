@@ -1,0 +1,1 @@
+efficiency-benchmark submit --task wmt16-en-ro --max_batch_size 256 -- python distill/fairseq_cli/submission.py distill/submission/distill/ --path distill/submission/distill/$1.pt --remove-bpe  --bpe sentencepiece --sentencepiece-model distill/submission/sentence.bpe.model -s en_XX -t ro_RO
